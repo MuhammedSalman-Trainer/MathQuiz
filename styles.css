@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#container {
+  text-align: center;
+}
+
+#welcome {
+  display: block;
+}
+
+#quiz {
+  display: none;
+  margin-bottom: 20px;
+}
+
+#scoreboard {
+  display: none;
+}
+
+input[type="text"],
+button {
+  margin: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#problem {
+  font-size: 24px;
+}
+
+#score {
+  font-size: 32px;
+}
