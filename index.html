@@ -13,17 +13,19 @@
       <button id="startButton">Start Game</button>
     </div>
     <div id="quiz">
+      <div class="overlay"></div> <!-- Overlay for darkening background -->
+      <div id="scoreDisplay">Score: <strong id="currentScore">0</strong></div>
       <p id="problem"></p>
       <input type="text" id="answerInput" placeholder="Your answer">
       <p id="questionTimer"></p>
     </div>
     <div id="scoreboard" style="display: none;">
       <h2>Game Over!</h2>
-      <p>Your final score is: <strong id="score">0</strong></p>
+      <p>Your final score is: <strong id="finalScore">0</strong></p>
     </div>
     <p id="overallTimer" style="display: none;"></p>
   </div>
 
   <script src="script.js"></script>
 </body>
-</html>  
+</html>
