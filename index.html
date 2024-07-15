@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Math Quiz Game</title>
   <link rel="stylesheet" href="styles.css">
-</head>
+</head>  
 <body>
   <div id="container">
     <div id="welcome">
       <h1>Welcome to Math Quiz Game</h1>
+      <label for="usernameInput">Enter your username: </label>
+      <input type="text" id="usernameInput">
       <button id="startButton">Start Game</button>
     </div>
     <div id="quiz">
@@ -22,6 +24,11 @@
     <div id="scoreboard" style="display: none;">
       <h2>Game Over!</h2>
       <p>Your final score is: <strong id="finalScore">0</strong></p>
+      <button id="tryAgainButton">Try Again</button>
+    </div>
+    <div id="highScores" style="display: none;">
+      <h2>High Scores</h2>
+      <ol id="highScoresList"></ol>
     </div>
     <p id="overallTimer" style="display: none;"></p>
   </div>
